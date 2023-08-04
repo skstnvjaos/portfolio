@@ -11,9 +11,8 @@ header {
   left: 0;
   right: 0;
 }
-figure,
 section {
-  height: 900px;
+  height: 1000%;
   background-color: #49e6b7;
 }
 * {
@@ -118,21 +117,16 @@ footer .lower .content_right {
     font-size: 25px;
 }
 /* other */
-figure img{
-  width: 50%;
-  float: left;
-}
-figure .me{
+div .me{
   width: 25%;
   padding-left: 7%;
-  padding-top: 3.2%;
-}
-figure .right{
-  padding-top: 50px;
-  padding-left: 200px;
+  padding-top: 5.4%;
   float: left;
 }
-figure .right p{
+div .right{
+  float: left;
+}
+div .right p{
   padding-top: 45px;
   padding-bottom: 45px;
   font-weight: bold;
@@ -163,15 +157,16 @@ div .area{
   font-size: 30px;
   font-weight: 700;
 }
-.area a .left{
-  padding-top: 70px;
-  padding-left: 200px;
-  width:900px;
-  height:700px;
+.area .web iframe{
+  width: 45%;
+  height: 100%;
+  padding-top: 7%;
 }
-.area a .right{
-  padding-top: 70px;
-  padding-left: 100px;
-  width:800px;
-  height:700px;
+.area .web .left{
+  float: left;
+  padding-left: 5%;
+}
+.area .web .right{
+  float: right;
+  padding-right:  5%;
 }
